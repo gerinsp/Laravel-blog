@@ -1,3 +1,13 @@
+cara install :
+1. Buka terminal
+2. dowload projek menggunakan git 
+   Ketik perintah <b>git clone https://github.com/gerinsp/Laravel-blog.git</b> di terminal
+3. install composer
+   composer install
+4. copas dan rename file .env.example menjadi .env
+5. regenerate app key
+   php artisan key:generate
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
