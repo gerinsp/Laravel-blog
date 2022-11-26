@@ -1,14 +1,24 @@
-<h2>Cara Install :</h2>
-1. Buka terminal
-2. dowload projek menggunakan git 
-   Ketik perintah <b>git clone https://github.com/gerinsp/Laravel-blog.git</b> di terminal
-3. install composer
-   composer install
-4. copas dan rename file .env.example menjadi .env
-5. regenerate app key
-   php artisan key:generate
-
-
+<h2>Instalasi</h2>
+<ol dir="auto">
+<li>Buka terminal</li>
+<li>Clone repository ini menggunakan git </li>
+</ol>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="  git clone https://github.com/sejutaimpian/upgrading-to-ci4.git"><pre>  git clone https://github.com/gerinsp/Laravel-blog.git</pre></div>
+<ol dir="auto" start="3">
+<li>install composer</li>
+</ol>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="  git clone https://github.com/sejutaimpian/upgrading-to-ci4.git"><pre>composer install</pre></div>
+<ol dir="auto" start="4">
+<li>Buat database (nama bebas) lalu import <code>blog.sql</code>
+<li>copas dan rename file <code>.env.example</code> menjadi <code>.env</code></li>
+<li>Buka file <code>.env</code> lalu ubah <code>DB_DATABASE=""</code> dengan nama database kalian</li>
+<li>regenerate app key</li>
+</ol>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="  git clone https://github.com/sejutaimpian/upgrading-to-ci4.git"><pre>php artisan key:generate</pre></div>
+<ol dir="auto" start="5">
+<li>ketikan perintah <code>php artisan serve</code> untuk menjalankan aplikasi
+</ol>
+<hr>
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
